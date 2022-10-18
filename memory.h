@@ -9,6 +9,7 @@
 
 #include <stdlib.h>
 #include <stdio.h>
+#include <stdbool.h>
 #include <math.h>
 
-void memoryDoCycleWork();
+void memStartFetch(unsigned int address, unsigned int count, unsigned char *dataPtr, bool *memDonePtr);
